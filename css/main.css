@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#75e0fb, #bbb9b4);
+    background-repeat: no-repeat;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img{
+    width: 170px;
+    border-radius: 200px;
+    margin-top: 30px;
+}
+.nome{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #1a4994;
+    font-family: 'Metal Mania', cursive;
+}
+
+.icone, .email {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 5px 5px rgba(0,0,0,.1);
+    cursor: pointer;
+    margin: 3px;
+    overflow: hidden;
+}
+.icone i, .email i{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 30px;
+    background-color: rgb(237, 237, 237);
+    color: rgb(69, 177, 240); 
+    cursor: pointer;
+}
+.icone span a{
+    list-style: none;
+    font-family: 'Metal Mania', cursive;
+    float: right;
+    margin-right: 23px;
+    font-weight: 100;
+    color: #4d8cf9;
+    line-height: 35px;
+    font-size: 17px;
+}
+.nome-icone {
+    font-family: 'Metal Mania', cursive;
+    margin-right: 40px;
+    float: right;
+    color: #f2f2f2;
+    font-weight: 100;
+    line-height: 35px;
+    font-size: 17px;
+}
+.icone:hover {
+    width: 125px;
+    background-color: rgb(226, 225, 224);
+    border-radius: 20px;
+}
+.redes-sociais{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 30px;
+    font-family: 'Victor Mono', monospace;
+    font-size: 20px;
+    text-align: justify;
+    width: 700px;
+    height: 200px;
+    padding: 50px;
+    border-radius: 24px;
+    color: rgb(237, 233, 233);
+    background: rgb(3, 26, 62);
+    overflow: hidden;
+    box-shadow: 0 3px 3px rgba(0,0,0,.1);
+}
+.sobre-mim{
+    position: absolute;
+    top: 50%; 
+    transform: translate(0, -400%);
+    display: flex;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.linguagem{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.linguagem.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 20px;
+    margin: 5px;
+    box-shadow: 2px 2p 2px black;
+}
+
+.projetos{
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.item{ 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1a4994;
+    border: 1px solid rgb(69, 177, 240);
+    border-radius: 50px;
+    width: 570px;
+    height: 60px;
+    font-size: 22px;
+    background-color: rgba(255, 253, 253, 0.1);
+    box-shadow: 0 5px 5px rgba(46, 45, 45, 0.1);   
+}
+
+.item:hover{
+    transition: 0.2s;
+    background-color: rgb(139, 201, 201);
+}
+
+#movie{
+    padding: 15px;
+    margin: auto;
+    display: none;
+}
+
+#movie-active{
+    display: block;
+}
+
+
+
+
+
